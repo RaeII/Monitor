@@ -33,7 +33,7 @@ func_search() {
 func_sendmail() {
   ip=$1
   echo "Sending email..."
-  echo "Drop IP: $ip" | mail -s "Firewall Alert" naylorbachiega@gmail.com
+  echo "Drop IP: $ip" | mail -s "Firewall Alert" seuemail@email.com
   echo "mail sent"
 }
 
